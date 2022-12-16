@@ -1,0 +1,26 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+/* header */
+body {
+  margin: 0;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+.header__wrapper {
+  display: flex;
+  height: 300px;
+  justify-content: space-between;
+}
+.header__photo a img {
+  width: 300px;
+}
+.header__info {
+  width: 600px;
+}
